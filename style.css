@@ -67,9 +67,10 @@ nav ul li a:hover, a.active{
 }
 .plus-minus-btn{
     color: #3352F2;
-    font-size: 22px;
+    font-size: 20px;
     padding: 2px;
     margin-top: 10px;
+    white-space: 20px;
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -118,4 +119,17 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+#confirmation-area{
+    display: none;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    color: white;
+}
+
+#confirmation-area p{
+    font-size: 20px;
+    color: tomato;
 }
